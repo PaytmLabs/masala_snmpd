@@ -13,20 +13,9 @@ The platforms supported are:
 
 ## Attributes
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['masala_snmpd']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+Please see the documentation for the cookbooks included by masala_snmpd. (See [metadata.rb](https://github.com/PaytmLabs/masala_snmpd/blob/develop/metadata.rb) and [Berksfile](https://github.com/PaytmLabs/masala_snmpd/blob/develop/Berksfile) files)
+
+This cookbook does not add any attributes of it's own. It *does* override the listen address default to only include localhost. This can be overriden.
 
 ## Usage
 
